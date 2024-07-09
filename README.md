@@ -50,11 +50,14 @@ To run the Interactive Drawing Board application, follow these steps:
    ```
 
 2. Start the backend (Spring Boot) server:
-   - Ensure MongoDB is running and configured correctly in `application.properties`.
    ```bash
    mvn clean package
    mvn spring-boot:run
    ```
+   ![alt text](images/AWS.png)
+
+## Architectural Design
+![alt text](<images/Diagrama en blanco.png>)
 ### Example Usage
 
 - Open the application in multiple browser tabs or devices.
